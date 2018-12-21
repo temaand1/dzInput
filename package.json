@@ -1,0 +1,11 @@
+{
+  "name": "dzInput",
+  "version": "1.0.0",
+  "dependencies": {},
+  "scripts": {
+    "scss": "gulp sass",
+    "scss:watch": "gulp sass:watch"},
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
