@@ -6,18 +6,20 @@
 </head>
 <body>
 <form class="container">
-    <input type="text" name="First Name" placeholder="Имя"><br>
-    <input type="text" name="Last Name" placeholder="Фамилия"><br>
+    <input type="text" name="First Name" placeholder="Имя" required><br>
+    <input type="text" name="Last Name" placeholder="Фамилия" required><br>
     <input type="text" name="Surname" placeholder="Отчество"><br>
-    <input type="date" name="Birth date" ><br>
+    <input type="date" name="Birth date" required ><br>
     <input type="radio" name="Gender"><br>
     <input type="radio" name="Gender"><br>
+    <input type="email" name="email" placeholder="e-mail@gmail.com" required >
     <input type="number" name="Number" placeholder="+375XXXXXXXXX"><br>
-    <select>
+    <label for="countre">Test</label>
+    <select name="countre" id="countre"><br>
         <option>Belarus</option>
         <option>Russia</option>
     </select><br>
-    <textarea></textarea>
+    <textarea required></textarea>
 </form>
 
 </body>
